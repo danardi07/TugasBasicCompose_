@@ -35,7 +35,6 @@ class MainActivity : ComponentActivity() {
             TugasBasicComposeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     BasicColumn(modifier =Modifier.padding(innerPadding)
-
                     )
                 }
             }
@@ -44,24 +43,33 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun BasicColumn(modifier: Modifier = Modifier) {
+fun BasicColumn(modifier : Modifier = Modifier) {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Top,
-        modifier = Modifier
+        modifier = modifier
             .fillMaxSize()
             .padding(top = 30.dp)
     ) {
         Spacer(modifier = Modifier.padding(50.dp))
 
         Text(
-            "Tugas Basic Compose",
-            fontSize = 30.sp,
+            "Login",
+            fontSize = 50.sp,
             fontWeight = FontWeight.Bold
+
         )
+        Text(
+            "ini adalah halaman login",
+            fontSize = 20.sp,
+            fontWeight = FontWeight.Bold
+
+        )
+
         Spacer(modifier = Modifier.padding(10.dp))
 
         Image(
+
             painter = painterResource(id = R.drawable.ftumy),
             contentDescription = "",
             modifier = Modifier
@@ -71,7 +79,6 @@ fun BasicColumn(modifier: Modifier = Modifier) {
         Text(
             "Nama :",
             fontSize = 20.sp,)
-
         Text(
             "Danar Adi Nugroho",
             fontSize = 20.sp)
@@ -84,6 +91,7 @@ fun BasicColumn(modifier: Modifier = Modifier) {
                 .size(300.dp)
                 .clip(CircleShape)
                 .padding(4.dp)
+
         )
 
     }
@@ -96,4 +104,5 @@ fun GreetingPreview() {
     TugasBasicComposeTheme {
         BasicColumn()
     }
+
 }
