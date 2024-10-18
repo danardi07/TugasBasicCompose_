@@ -34,7 +34,6 @@ class MainActivity : ComponentActivity() {
             TugasBasicComposeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     BasicColumn(modifier =Modifier.padding(innerPadding)
-
                     )
                 }
             }
