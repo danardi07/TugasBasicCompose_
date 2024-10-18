@@ -53,11 +53,18 @@ fun BasicColumn(modifier : Modifier = Modifier) {
         Spacer(modifier = Modifier.padding(50.dp))
 
         Text(
-            "Tugas Basic Compose",
-            fontSize = 30.sp,
+            "Login",
+            fontSize = 50.sp,
             fontWeight = FontWeight.Bold
 
         )
+        Text(
+            "ini adalah halaman login",
+            fontSize = 20.sp,
+            fontWeight = FontWeight.Bold
+
+        )
+
         Spacer(modifier = Modifier.padding(10.dp))
 
         Image(
