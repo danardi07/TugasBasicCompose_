@@ -71,7 +71,6 @@ fun BasicColumn(modifier : Modifier = Modifier) {
         Text(
             "Nama :",
             fontSize = 20.sp,)
-
         Text(
             "Danar Adi Nugroho",
             fontSize = 20.sp)
