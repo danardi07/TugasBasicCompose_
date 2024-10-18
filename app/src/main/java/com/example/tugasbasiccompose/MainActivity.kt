@@ -56,6 +56,7 @@ fun BasicColumn(modifier : Modifier = Modifier) {
             "Tugas Basic Compose",
             fontSize = 30.sp,
             fontWeight = FontWeight.Bold
+
         )
         Spacer(modifier = Modifier.padding(10.dp))
 
