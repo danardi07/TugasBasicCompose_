@@ -96,4 +96,5 @@ fun GreetingPreview() {
     TugasBasicComposeTheme {
         BasicColumn()
     }
+
 }
