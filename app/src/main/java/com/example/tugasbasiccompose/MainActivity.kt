@@ -83,6 +83,7 @@ fun BasicColumn(modifier : Modifier = Modifier) {
                 .size(300.dp)
                 .clip(CircleShape)
                 .padding(4.dp)
+
         )
 
     }
