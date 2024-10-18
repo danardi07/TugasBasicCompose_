@@ -42,11 +42,11 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun BasicColumn(modifier: Modifier = Modifier) {
+fun BasicColumn(modifier : Modifier = Modifier) {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Top,
-        modifier = Modifier
+        modifier = modifier
             .fillMaxSize()
             .padding(top = 30.dp)
     ) {
